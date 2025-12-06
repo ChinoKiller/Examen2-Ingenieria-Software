@@ -1,4 +1,5 @@
-using ExamTwo.Controllers;
+using Backend.Repositories;
+using Backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,20 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<Database>();
+builder.Services.AddSingleton<IMaquinaCafeRepositorio, MaquinaCafeRepositorio>();
+builder.Services.AddScoped<IMaquinaCafeServicio, MaquinaCafeServicio>();
+
+var corsPolicy = "FrontendPolicy";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(corsPolicy, policy =>
+    {
+        policy.WithOrigins("http://localhost:8080")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -20,7 +34,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors(corsPolicy);
+
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

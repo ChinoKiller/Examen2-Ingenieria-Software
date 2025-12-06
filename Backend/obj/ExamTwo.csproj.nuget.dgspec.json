@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\Backend\\ExamTwo.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\backend\\ExamTwo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\Backend\\ExamTwo.csproj": {
+    "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\backend\\ExamTwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\Backend\\ExamTwo.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\backend\\ExamTwo.csproj",
         "projectName": "ExamTwo",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\Backend\\ExamTwo.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\backend\\ExamTwo.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Examen Inge\\Examen2-Ingenieria-Software\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
